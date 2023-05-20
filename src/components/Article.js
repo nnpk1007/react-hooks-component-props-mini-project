@@ -7,12 +7,14 @@
 // a <p> element displaying the preview of the article, passed as a prop called preview
 
 import React from "react";
+import MinutesToRead from "./MinutesToRead";
 
-const Article = ({ title, date = "January 1, 1970", preview }) => {
+const Article = ({ title, date = "January 1, 1970",minutes, preview }) => {
   return (
     <article>
       <h3>{title}</h3>
       <small>{date}</small>
+      <MinutesToRead minutes={minutes}/>
       <p>{preview}</p>
     </article>
   );

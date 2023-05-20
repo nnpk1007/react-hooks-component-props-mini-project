@@ -14,6 +14,7 @@ const ArticleList = ({ posts }) => {
         key={post.id}
         title={post.title}
         date={post.date}
+        minutes={post.minutes}
         preview={post.preview}
       />
     );
