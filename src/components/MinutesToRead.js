@@ -1,11 +1,3 @@
-
-
-
-
-// For every 10 minutes (rounded up to the nearest 10), display a bento box emoji.
-// For example, if the article takes 35 minutes to read, you should display "🍱🍱🍱🍱 35 min read".
-// If the article takes 61 minutes to read, you should display "🍱🍱🍱🍱🍱🍱🍱 61 min read".
-
 import React from "react";
 
 const MinutesToRead = ({ minutes }) => {
